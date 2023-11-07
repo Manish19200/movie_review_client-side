@@ -39,6 +39,8 @@ function App() {
     catch (error) 
     {
       console.error(error);
+
+      
     }
   }
 
@@ -48,7 +50,7 @@ function App() {
 
   return (
     <div className="App">
-    <Header/>
+    <Header/>git commit -m "first commit"
     <Routes>
         <Route path="/" element={<Layout/>}>
           <Route path="/" element={<Home movies={movies} />} ></Route>
